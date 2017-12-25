@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', 'sans-serif';
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+  background: #bd00ff;
+  color: #000000;
+  min-height: 100vh;
+  background-size: cover;
+
+}
+
+.divider {
+  padding: 10px 0;
+}
+
+.header {
+  padding: 20px 0;
+  text-align: center;
+  
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  color: #fff;
+  text-shadow: 4px 4px 8px #000;
+}
+
+h4 {
+  font-size: 2em;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 20px 0;
+}
+
+h4:hover {
+  color: #e975ff;
+  text-decoration: none;
+}
+
+h4:active {
+  color: #000;
+  text-decoration: none;
+}
+
+h4:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.h {
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.h:hover {
+  color: #e975ff;
+  text-decoration: none;
+}
+
+.h:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.h:active {
+  color: #000;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.2em;
+  letter-spacing: 1.2px;
+  font-weight: 800;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.content {
+  min-height: 200px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 10px;
+  text-align: center;
+  color: #fff;
+  background-color: #4e0058;
+  border-radius: 8px;
+  
+  text-decoration: none;
+  letter-spacing: 2px;
+  -webkit-box-shadow: 2px 2px 2px black;
+          box-shadow: 2px 2px 2px black;
+}
+
+.fcc {
+  
+  border: none;
+  border-radius: 5px;
+  padding: 20px 10px;
+  text-align: center;
+  color: #fff;
+  background-color: #4e0058;
+  border-radius: 8px;
+  /*border-bottom: 4px solid #000;*/
+  text-decoration: none;
+  letter-spacing: 2px;
+  -webkit-box-shadow: 2px 2px 2px black;
+          box-shadow: 2px 2px 2px black;
+}
+
+.btn {
+  -webkit-transition-duration: 0.1s;
+  /* Safari */
+  transition-duration: 0.1s;
+  background-color: #8c00b2;
+  border-color: #480656;
+  border-radius: 8px;
+  border-bottom: 4px solid #480656;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-box-shadow: 1px 1px 1px black;
+          box-shadow: 1px 1px 1px black;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  background-color: #bd00ff;
+  border-radius: 8px;
+  border: none;
+  border-bottom: 4px solid #480656;
+  color: #fef8ff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 2px;
+  -webkit-box-shadow: 2px 2px 12px black;
+          box-shadow: 2px 2px 12px black;
+}
+
+.btn:active {
+  background-color: #bd00ff;
+  border-radius: 8px;
+  border: none;
+  border-bottom: 4px solid #480656;
+  color: #fef8ff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 2px;
+  -webkit-box-shadow: 2px 2px 12px black;
+          box-shadow: 2px 2px 12px black;
+}
+
+.btn:focus {
+  background-color: #bd00ff;
+  border-radius: 8px;
+  border: none;
+  border-bottom: 4px solid #480656;
+  color: #fef8ff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 2px;
+  -webkit-box-shadow: 2px 2px 12px black;
+          box-shadow: 2px 2px 12px black;
+}
+
+
+
+.media {
+  color: #fff;
+  text-align: center;
+}
+
+.media-object {
+  border: 2px solid #e975ff;
+  /*border-radius: 50%;*/
+  
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.ref {
+  color: #fff;
+}
+
+.ref:hover {
+  color: #e975ff;
+  text-decoration: none;
+}
+
+.ref:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.ref:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.small {
+  font-weight: bold;
+  font-size: small;
+  color: #000;
+}
